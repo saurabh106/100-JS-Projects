@@ -278,3 +278,16 @@ h1{
     transition: all 0.5s;
     transform: scale(1);
 }
+
+.clothes{
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.clear, img.img1{
+    height: 90px;
+    /* padding-top: 10px; */
+    border: solid black 1.5px;
+    background-color: wheat;
+}
