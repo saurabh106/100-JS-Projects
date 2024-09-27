@@ -13,6 +13,10 @@ body{
     --colorlight1: #DBE2EF;
     --colorlight2: #F9F7F7;
     --color1: rgba(219, 226, 239, 0.3);
+    /* cursor: none; */
+}
+body::-webkit-scrollbar {
+    display: none;
 }
 .vid{
     width: 100vw;
@@ -209,7 +213,7 @@ h1{
     width: 30%;
     max-width: 200px;
     background-color: var(--color1);
-    border-radius: 5px;
+    border-radius: 12px;
     padding: 0.6rem 2rem;
     display: flex;
     flex-direction: column;
@@ -288,6 +292,19 @@ h1{
 .clear, img.img1{
     height: 90px;
     /* padding-top: 10px; */
-    border: solid black 1.5px;
-    background-color: wheat;
+    border: solid rgba(0, 0, 0, 0.479) 1px;
+    background-color: transparent;
+    border-radius: 12px;
+}
+.build{
+     width: 45px; 
+    height: 45px ;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.192);
+    align-self: center;
+}
+.build img{
+    color: white;
+    align-self: center;
 }
