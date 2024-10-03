@@ -305,7 +305,7 @@ function voice_assist() {
     const denotionstr = gettimestr();
     const temp = `${prop?.main?.temp}`;
     const city = prop?.name;
-    const name = "saurabh";
+    const name = "From B4";
     const desc = prop?.weather[0]?.description;
     const windspeed = `${prop?.wind?.speed}`;
     const maxtemp = `${prop?.main?.temp_max}`;
